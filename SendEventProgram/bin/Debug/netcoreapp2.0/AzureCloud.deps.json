@@ -1,0 +1,198 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "846fbe751f624e1125f7b34f2a8c354a7820de43"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "AzureCloud/1.0.0": {
+        "dependencies": {
+          "Microsoft.Azure.EventHubs": "1.0.1"
+        },
+        "runtime": {
+          "AzureCloud.dll": {}
+        }
+      },
+      "Microsoft.Azure.Amqp/2.0.4": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Azure.Amqp.dll": {}
+        }
+      },
+      "Microsoft.Azure.EventHubs/1.0.1": {
+        "dependencies": {
+          "Microsoft.Azure.Amqp": "2.0.4",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Azure.EventHubs.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.0.1": {},
+      "System.Globalization/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.IO/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading.Tasks": "4.0.11"
+        }
+      },
+      "System.Reflection/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.IO": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection.Primitives/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.1.0": {
+        "dependencies": {
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Globalization": "4.0.11",
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1"
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Text.Encoding/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Threading.Tasks/4.0.11": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AzureCloud/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.Amqp/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-biYAGReRTclHy3uhBoCm7YxGCsx6temsk3txHrLPL7bomRPfxuXiJ7lQKM8dCT8QTqRNEWgXZhCOCBM5GJSN3w==",
+      "path": "microsoft.azure.amqp/2.0.4",
+      "hashPath": "microsoft.azure.amqp.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.Azure.EventHubs/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Ix81agSmj62ubsA+5Jqz7GzFeT+o8sbzawyHe9K9Hnz8At0lD/DjlezEMT4iz1ZhUwhI9bV4K1ujluzeq9H6Q==",
+      "path": "microsoft.azure.eventhubs/1.0.1",
+      "hashPath": "microsoft.azure.eventhubs.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kTQ5R/wMwQN5Bf2AV5AIN3VVPFdYb6j3OWly7abnYpPPhwSJTz4RXkmml3eucgKg0b4qXALjZwwksfgrcp1yMw==",
+      "path": "microsoft.netcore.targets/1.0.1",
+      "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
+    },
+    "System.Globalization/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hdSW5Gw8Ki6gqZJcT/iJqarBzLG45Mh3WgdUYqkXBbqZzNlW+3DTr6ItsXYGtKZHGk/3HzrhTBtPaEZY0oKAoQ==",
+      "path": "system.globalization/4.0.11",
+      "hashPath": "system.globalization.4.0.11.nupkg.sha512"
+    },
+    "System.IO/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sRpFKqB1tpqr22gFtXIcKPv894kN+pES350yCDJ7/fVVVj9003i+0iNQ/m3TRl4A4+w6OrbWO5bmYXzPbKohIw==",
+      "path": "system.io/4.1.0",
+      "hashPath": "system.io.4.1.0.nupkg.sha512"
+    },
+    "System.Reflection/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wCEHqlYcbrubmUjHxy0lB74xM4X/qej2fQpNdQjDCC2BnfS7Dwuj1NLbvS+iyfNPUPn8LCjW/EvzWeUpR9dG3A==",
+      "path": "system.reflection/4.1.0",
+      "hashPath": "system.reflection.4.1.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8DVlLoAahymzsm2wJESa4n4tSC1vXpVzlXs3jmfXzpp53E3xBIzpSZaPOpL/DjJgFCbLkQkherjmlqnrRzQVBg==",
+      "path": "system.reflection.primitives/4.0.1",
+      "hashPath": "system.reflection.primitives.4.0.1.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FQSdyxipewGJN9ZGLgVdeFvRGk0uxV0+CsEHKuqw70JGiMn2QVWd7lN96VesHb1CcOBq9vevszUfg8eeh4a9bA==",
+      "path": "system.reflection.typeextensions/4.1.0",
+      "hashPath": "system.reflection.typeextensions.4.1.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dFwDm1FpH7EtB0hcf7d26Zhz6cUW9KWJNNyWmnrVhfU7sgndDEwK6iCtnfVlPRZQESPBaFs9NMYVNwi5ChjpWA==",
+      "path": "system.resources.resourcemanager/4.0.1",
+      "hashPath": "system.resources.resourcemanager.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vrk9tBJeZdba4cGQf4asFG42jVc6A41enVE5guOiQaP8RIEQkKjt0MD9FtOsmoaVDYb/9gfeG6tFLzyZQmuLLg==",
+      "path": "system.runtime/4.1.0",
+      "hashPath": "system.runtime.4.1.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ndX/rg9Oh5ltpq77ZL8XibfOZRihl4y3K1pECe4in4ougYL/nitMlpn6Ezn/7KT40mpJPNDr14V4akhsWMcuQ==",
+      "path": "system.runtime.serialization.primitives/4.1.1",
+      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SY9OF4HvTyfXgGVOOO6uu9a1Yf6RiCue+JbVaYeG+Od+sVDops9P4An2XSELe2US1f1rdJnXDJYptJq1ngSIwA==",
+      "path": "system.text.encoding/4.0.11",
+      "hashPath": "system.text.encoding.4.0.11.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7+Fn9LsjNl9VSteJ9DMtPOCXZXgPatbSUZbmkpjolyr/R4vK6M4prE6ZjUx0euO+KNmy9pT3uthdeL2bDcFSUg==",
+      "path": "system.threading.tasks/4.0.11",
+      "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
+    }
+  }
+}
