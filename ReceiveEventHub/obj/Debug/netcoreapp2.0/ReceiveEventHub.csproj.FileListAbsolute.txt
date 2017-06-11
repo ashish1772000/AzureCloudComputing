@@ -1,0 +1,5 @@
+D:\AzureCloudComputing\ReceiveEventHub\bin\Debug\netcoreapp2.0\ReceiveEventHub.deps.json
+D:\AzureCloudComputing\ReceiveEventHub\bin\Debug\netcoreapp2.0\ReceiveEventHub.runtimeconfig.json
+D:\AzureCloudComputing\ReceiveEventHub\bin\Debug\netcoreapp2.0\ReceiveEventHub.runtimeconfig.dev.json
+D:\AzureCloudComputing\ReceiveEventHub\obj\Debug\netcoreapp2.0\ReceiveEventHub.csproj.CoreCompileInputs.cache
+D:\AzureCloudComputing\ReceiveEventHub\obj\Debug\netcoreapp2.0\ReceiveEventHub.AssemblyInfo.cs
